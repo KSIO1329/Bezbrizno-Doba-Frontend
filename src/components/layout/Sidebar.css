@@ -1,0 +1,30 @@
+.side-bar {
+    height: 100%;
+    background-color: rgb(36, 8, 32);
+    position: fixed;
+    box-shadow: 2px 0px 5px rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    width: 60%;
+    max-width: 400px;
+    z-index: 500;
+}
+.side-bar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-bar .nav-link-ks{
+    display: inline-block;
+    color: rgb(245, 128, 32);
+    padding: 20px;
+    font-size: 2em;
+    line-height: 0.15;
+    margin-left: 25px;
+    width: 100%;
+}
+.side-bar .nav-links-ks{
+    margin: 0px;
+    margin-top: 20px;
+}

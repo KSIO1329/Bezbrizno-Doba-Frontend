@@ -1,0 +1,50 @@
+.core-content{
+    margin-top: 40px;
+}
+.carousel-ks{
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+.company-name{
+    font-style: italic;
+    margin-top: 0px;
+}
+.carousel-ks h2{
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+    padding: 0px;
+}
+.dashboard{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.carousel-ks img{
+    max-width: 100%;
+}
+.dashboard .delpost{
+    visibility: hidden !important;
+}
+.dashboard .post-summary{
+    text-align: left;
+    border: none;
+    border-top: 2px solid rgb(86,18,81);
+}
+.dashboard .card{
+    margin-top: 0px !important;
+}
+.notifications{
+    border: 2px solid rgb(86,18,81);
+    background-color: rgb(86,18,81);
+}
+.notifications .title{
+    color: white;
+    font-size: 20px;
+}

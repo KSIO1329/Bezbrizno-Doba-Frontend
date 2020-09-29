@@ -1,0 +1,16 @@
+.post-summary{
+    margin-bottom: 0px;
+    margin-top: 20px;
+    border: 2px solid rgb(86,18,81);
+}
+.post-date{
+    text-align: left;
+    margin-top: 5px !important;
+}
+.post-summary .row{
+    margin: 0px;
+}
+.delpost{
+    text-align: right;
+    margin-top: 20px;
+}

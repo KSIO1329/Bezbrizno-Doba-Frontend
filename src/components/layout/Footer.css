@@ -1,0 +1,91 @@
+.page-footer{
+    background-color: rgb(36, 8, 32);/*rgb(30, 27, 30);*/
+}
+.fa {
+    background-color: white;
+    color: rgb(36, 8, 32);
+    padding: 5px;
+    font-size: 20px;
+    width: 30px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.footer-links a, .footer-links button{
+    font-size: 15px;
+}
+.footer-links button{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color:  rgb(36, 8, 32) !important;
+}
+.hr-link-text{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.footer-links a:hover, .footer-links button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+.author p, .author a, .author button{
+    display: inline-block;
+    font-size: 15px;
+    vertical-align: top;
+}
+.author-name{
+    font-size: inherit !important;
+}
+.author p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.fa-github{
+    font-size: 32px;
+    margin-top: 4px;
+    margin-left: 15px;
+    padding: 0px;
+    background-color: unset;
+    color: white;
+}
+.page-footer .row{
+    margin: 0px;
+}
+.tooltip{
+    display: inline-block;
+    position: relative;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 105%;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1 !important;
+}

@@ -1,0 +1,7 @@
+.nav-link-ks i{
+    display: inline-block !important;
+    vertical-align: middle !important;
+    padding-bottom: 3px !important;
+    margin-right: 5px;
+    height: unset !important;
+}

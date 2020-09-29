@@ -1,0 +1,9 @@
+.landing-page p{
+    text-align: justify;
+    font-size: 20px;
+    margin: 10px 0px 50px;
+}.img-1{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+}

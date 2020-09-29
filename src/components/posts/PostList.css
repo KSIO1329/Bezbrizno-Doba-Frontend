@@ -1,0 +1,21 @@
+.news-title{
+    padding: 20px;
+    margin: 0px 0px 20px;
+}
+.new-post-btn{
+    margin: 20px 0px 0px;
+    width: 100%;
+}
+.linkling{
+    margin: 0px 10px;
+    font-size: 18px; 
+    display: inline-block;
+    color: rgb(209, 104, 214);
+}
+a{
+    color: purple;
+}
+.page-nav{
+   text-align: left;
+   margin: 20px 0px;
+}

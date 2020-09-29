@@ -1,0 +1,29 @@
+.contact-page .fa {
+    background-color:rgb(36, 8, 32);
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    width: 30px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.contact-page .hr-link-text{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: bottom;
+    color: black;
+}
+.contact-page button{
+    background-color: white !important;
+    color: black !important;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+.contact-page ul{
+    margin-top: 100px;
+}

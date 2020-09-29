@@ -1,0 +1,24 @@
+.hamburger-button{
+    cursor: pointer;
+    transition: background-color .3s;
+    height: 100px !important;
+    line-height: 100px !important;
+}
+.nav-wrapper{
+    z-index: 200;
+    background-color: rgb(245, 128, 32);
+    height: 100px !important;
+}
+.nav-link-ks{
+    font-size: 20px;
+}
+.nav-wrapper .right{
+    line-height: 100px;
+}
+.container{
+    height: inherit
+}
+img{
+    height: 80px;
+    margin-top: 10px;
+}
